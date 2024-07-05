@@ -32,7 +32,7 @@
             "[",
                 "'C{}'.format(i+1) for i in range(128)",
             "] + [",
-                "OSAT, PR",
+                "'OSAT', 'PR'",
             "] + [",
                 "'C{}'.format(i+131) for i in range(126)",
             "]"
